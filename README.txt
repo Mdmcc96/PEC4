@@ -1,5 +1,5 @@
 
-INSTALACIÓN ENTORNO DE TEST
+#INSTALACIÓN ENTORNO DE TEST
 Para crear el entorno en el que ejecutaremos el test del ejercicio 6, hay que ejecutar los siguientes comandos en orden:
 1- python -m venv venv
 2- Activa el entorno virtual (en este caso en Windows):
@@ -13,7 +13,7 @@ Las dependencias también puedes instalarlas usando el siguiente comando:  pip i
 
 
 
-EJECUCIÓN DEL PROYECTO:
+#EJECUCIÓN DEL PROYECTO:
 Mostrar ayuda:
 
 python src/main.py -h
@@ -25,7 +25,7 @@ Por ejemplo, para ejecutar hasta el ejercicio 7:
 python src/main.py -ex 7
 
 
-LINTING
+#LINTING
 En primer lugar, instala pylint usando el siguiente comando:
 
 pip install pylint
@@ -35,7 +35,7 @@ Para ejecutar pylint, usa el siguiente comando estando en la carpeta src:
 pylint .
 
 
-CÓMO GENERAR LA DOCUMENTACIÓN
+#CÓMO GENERAR LA DOCUMENTACIÓN
 En primer lugar, instala pdoc:
 
 pip install pdoc
@@ -49,7 +49,7 @@ La documentación generada se almacenará en la carpeta doc/.
 
 
 
-EJECUCIÓN DE TEST
+#EJECUCIÓN DE TEST
 Primero instala pytest:
 
 pip install pytest
